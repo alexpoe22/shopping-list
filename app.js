@@ -32,7 +32,7 @@ $(document).ready(function() {
 		$(".shopping-list").on("click",".shopping-item-toggle", function(event){
 			
 
-			$(this).closest("li").find(".shopping-item").CSS(".shopping-item_checked");
+			$(this).closest("li").find(".shopping-item").toggleClass("shopping-item__checked");
 		});
 
 
